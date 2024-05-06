@@ -29,4 +29,6 @@ correl = round(df["SMR"].corr(df["A_prop%"]),2)
 
     correlation between SMR and A_prop% is 
     :nan
+
+    jacob
     
