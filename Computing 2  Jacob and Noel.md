@@ -51,10 +51,10 @@ MyDict = {"SpName":SpNames,
 df= pd.DataFrame(MyDict)
 df.set_index("SpName", inplace = True)
 
-print(df)
+##print(df)
 
 correl = round(df["SMR"].corr(df["A_prop%"]),2)
-print("correlation between SMR and A_prop% is \n:{0}".format(correl))
+##print("correlation between SMR and A_prop% is \n:{0}".format(correl))
 ```
 
     correlation between SMR and A_prop% is 
